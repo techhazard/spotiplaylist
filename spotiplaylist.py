@@ -5,6 +5,14 @@ import spotipy
 import spotipy.util as util
 from itertools import zip_longest
 
+# You get both of these from the spotify API
+SPOTIFY_CLIENT_ID="YOUR_CLIENT_ID"
+SPOTIFY_CLIENT_SECRET="YOUR_CLIENT_SECRET"
+
+# set this as a valid redirection uri in the API management screen
+# (where you got your Client data)
+REDIRECT_URI="http://succesful-login.localhost/"
+
 scope = 'playlist-modify-private'
 
 
